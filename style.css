@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "fixed";
+    src: url("assets/fixed.ttf");
+}
+
+body {
+    font-family: "fixed" !important;
+    text-align: center;
+    background-color: #0f111a;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+a {
+    color: #ff4151 !important;
+}
+
+.member {
+    display: flex;
+}
+
+.member > img {
+    height: 10rem;
+    margin: 1rem;
+}
+
+.member > div > h3 {
+    margin-top: 0.1rem;
+}
+
+.member > div > h1 {
+    margin-bottom: 0.1rem;
+}
+
+.member > div {
+    text-align: left;
+}
