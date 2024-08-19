@@ -51,7 +51,7 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-    h1, h2, h3 {
+    h1, h2, h3, #title, #members-title {
         font-weight: normal !important;
     }
 }
